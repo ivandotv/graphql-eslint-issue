@@ -25,11 +25,11 @@ module.exports = {
       parser: '@graphql-eslint/eslint-plugin',
       plugins: ['@graphql-eslint'],
       extends: 'plugin:@graphql-eslint/schema-recommended',
-      parserOptions: {
-        // operations: './src/**/*.graphql'
-        schema: './src/user.graphql'
-        // schema: './src/**/*.graphql'
-      },
+      // parserOptions: {
+      // operations: './src/**/*.graphql'
+      // schema: './src/user.graphql'
+      // schema: './src/**/*.graphql'
+      // },
       rules: {
         '@graphql-eslint/known-type-names': 'error'
       }

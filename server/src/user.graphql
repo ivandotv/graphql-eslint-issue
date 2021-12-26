@@ -12,7 +12,7 @@ type User {
   name: String!
   lastName: String
   #### this should error ###
-  vehicles: [Vehiclsss]!
+  vehicles: [Int]!
 }
 
 input CreateUserInput {
