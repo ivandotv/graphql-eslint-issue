@@ -11,7 +11,9 @@ type User {
   id: ID!
   name: String!
   lastName: String
-  #### this should error ###
+  """
+  this should error
+  """
   vehicles: [Int]!
 }
 

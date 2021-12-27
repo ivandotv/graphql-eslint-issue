@@ -1,4 +1,3 @@
 module.exports = {
-  schema: './**/*.graphql'
-  // documents: null
+  schema: './**/*graphql.ts'
 }
